@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    color: silver;
+    display: flex;
+}
+
+img {
+    height: 750px;
+}
+
+#coach-image-container {
+    display: inline-block;
+    text-align: center;
+}
+
+#coach-quote-container {
+    margin-left: 60px;
+    margin-top: 200px;
+    font-size: 2.5rem;
+}
+
+#sign-up-link {
+    margin-top: 200px;
+}
+
+#sign-up-link button {
+    font-size: 2.5rem;
+    background-color: silver;
+}
+
+p {
+    background-color: rgb(255, 255, 255, 0.05);
+    border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 760px) {
+    body {
+        flex-direction: column;
+    }
+
+    #coach-quote-container {
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+}
