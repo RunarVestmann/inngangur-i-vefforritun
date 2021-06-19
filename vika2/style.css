@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    /* https://www.w3schools.com/css/css3_box-sizing.asp */
+    box-sizing: border-box;
+
+    /* So when we click on something in the header there is a little space above the text we scroll to */
+    scroll-padding-top: 2.5rem;
+}
+
+body {
+    background-color: rgb(214, 221, 228);
+}
+
+header {
+    background-color: aliceblue;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    opacity: 0.7;
+}
+
+header a {
+    font-size: 2rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: white;
+    color: blue;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+form {
+    font-size: 2rem;
+}
+
+input {
+    font-size: 2rem;
+}
+
+textarea {
+    font-size: 2rem;
+}
+
+button {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section {
+    margin-top: 5rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    font-size: 2rem;
+    background-color: #d2d5d6;
+
+    /* Now the edges are round and we've got a bit more space for the text */
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
